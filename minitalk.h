@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: azakarya <azakarya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/28 21:13:30 by azakarya          #+#    #+#             */
-/*   Updated: 2022/10/02 03:41:51 by azakarya         ###   ########.fr       */
+/*   Created: 2022/12/03 17:47:28 by azakarya          #+#    #+#             */
+/*   Updated: 2022/12/03 17:47:31 by azakarya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,12 @@
 
 # include <signal.h>
 # include <unistd.h>
-# include "./ft_printf/ft_printf.h"
+# include <stdlib.h>
+# include <stdio.h>
 
 typedef struct sigaction	t_sigaction;
+
+char	*ft_itoa(int n);
+int		ft_strlen(const char *str);
 
 #endif
